@@ -65,6 +65,7 @@ A la fin de son exécution, le programme affichera un tableau avec les valeurs q
 ```
 ## **Initialisation de l'environnement de développement**
 Voici le procéder pour initialiser l'environnement de la solution:
+
 *1. Dans un premier temps, télécharger le fichier .zip ou bien clone le répertoire via la commande suivante :*
 ```bash
 git clone https://github.com/DarkMax31/WeatherAPI_Python.git
