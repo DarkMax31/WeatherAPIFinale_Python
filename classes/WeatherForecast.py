@@ -10,7 +10,6 @@ class WeatherForecast:      # Weather forecast retrieval and processing class
         self.location = location
         self.country_code = country_code
         self.api_key = api_key
-        self.forecast_data = None
 
     def get_forecast(self):     # Fetch weather forecast data from OpenWeatherMap API with metrics units
         url = f"http://api.openweathermap.org/data/2.5/forecast?q={self.location},{self.country_code}&appid={self.api_key}&units=metric"
